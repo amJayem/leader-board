@@ -94,6 +94,8 @@ hr{
 	border-radius: 7px;
 	padding: 13px;
 	margin-right: 23px;
+}
+.course:hover{
 	box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94,104,121, .288);
 }
 
