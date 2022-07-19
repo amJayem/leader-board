@@ -80,3 +80,58 @@ hr{
 	text-decoration: none;
 	color: #562EFF;
 }
+
+/* --------------
+	latest courses
+---------------- */
+.courses{
+	display: flex;
+	background-color: #fff;
+}
+.course{
+	/*background: linear-gradient(rgba(0, 0, 0, 0.045), rgba(0, 0, 0, 0.011));*/
+	background-color: #fff;
+	border-radius: 7px;
+	padding: 13px;
+	margin-right: 23px;
+	box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94,104,121, .288);
+}
+
+.course-banner img{
+	width: 224px;
+	height: 104px;
+}
+
+.fa-star{
+	font-size: 12px;
+}
+.filled{
+	color: #FFC014;
+}
+.empty{
+	color: #AEAEAE;
+}
+.course-info{
+	display: flex;
+    align-items: center;
+	padding-bottom: 21px;
+}
+.course-info>span{
+	font-size: 12px;
+	color: #A2A2A2;
+	padding-left: 10px;
+	margin-right: 30px;
+}
+
+.clock{
+	font-size: 14.6913px;
+	background: #FFE4E8;
+	border-radius: 14.6913px;
+	padding: 4px;
+	color: #FF4A60;
+}
+.fa-regular .fa-clock{
+
+	width: 20px;
+	height: 20px;
+}
